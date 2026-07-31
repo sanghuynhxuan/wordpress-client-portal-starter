@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressClientPortalStarter;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressClientPortalStarterFeature {
+final class Feature {
     private const OPTION = 'wordpress_client_portal_starter_enabled';
     private const SLUG = 'wordpress-client-portal-starter';
     private const TITLE = 'WordPress Client Portal Starter';
