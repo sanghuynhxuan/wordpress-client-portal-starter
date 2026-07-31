@@ -15,5 +15,5 @@ require_once __DIR__ . '/includes/Support.php';
 require_once __DIR__ . '/includes/Feature.php';
 
 add_action('plugins_loaded', static function (): void {
-    (new \SangPortfolio\WordpressClientPortalStarterFeature())->register();
+    (new \SangPortfolio\WordpressClientPortalStarter\Feature())->register();
 });
