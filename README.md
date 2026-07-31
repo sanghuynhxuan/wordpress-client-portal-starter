@@ -1,19 +1,18 @@
 # WordPress Client Portal Starter
 
-A foundation for a secure WordPress client portal and self-service content workflows.
+A functional client-portal shortcode with authentication-aware output.
 
-## Client value
+## Functional scope
 
-Client access patterns, controlled content delivery, and bespoke portal implementation.
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
+## Installation
 
-## What this starter includes
+Copy this repository into `wp-content/plugins/wordpress-client-portal-starter`, activate it, then open **Settings → WordPress Client Portal Starter**.
 
-- A focused entry point for the stated use case
-- A clear foundation for client-specific customization
-- An intentionally compact structure for safe iteration
+## Production note
 
-## Notes
-
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
